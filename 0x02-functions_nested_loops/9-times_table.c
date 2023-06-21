@@ -21,7 +21,6 @@ void times_table(void)
 			{
 				printf(", ");
 			}
-			x++;
 		}
 		_putchar('\n');
 		i++;
