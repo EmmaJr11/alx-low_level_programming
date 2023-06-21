@@ -11,16 +11,17 @@ void times_table(void)
 
 	while (i <= 9)
 	{
-		for (int x = 0; x <= 9; x++)
+		while (x <= 9)
 		{
 			num = i * x;
-			printf("%d", num);
+			_putchar(num + '0');
 
 			if (x < 9)
 			{
 				_putchar(44);
 				_putchar(32);
 			}
+			x++;
 		}
 		_putchar('\n');
 		i++;
