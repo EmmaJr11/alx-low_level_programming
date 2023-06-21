@@ -20,8 +20,7 @@ void times_table(void)
 
 			if (x < 9)
 			{
-				_putchar(44);
-				_putchar(32);
+				printf(", ");
 			}
 			x++;
 		}
