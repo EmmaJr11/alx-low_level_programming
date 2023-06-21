@@ -12,7 +12,8 @@ void times_table(void)
 
 	while (i <= 9)
 	{
-		for (int x = 0; x <= 9; x++)
+		int x = 1;
+		while (x <= 9)
 		{
 			num = i * x;
 			printf("%d", num);
@@ -21,8 +22,9 @@ void times_table(void)
 			{
 				printf(", ");
 			}
+			x++;
 		}
-		_putchar('\n');
+		printf("\n");
 		i++;
 	}
 }
