@@ -9,11 +9,10 @@ void times_table(void)
 {
 	int i;
 	int num;
-	int x;
 
 	while (i <= 9)
 	{
-		while (x <= 9)
+		for (int x = 0; x <= 9; x++)
 		{
 			num = i * x;
 			printf("%d", num);
