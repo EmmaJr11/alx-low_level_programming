@@ -12,9 +12,9 @@ void more_numbers(void)
 	while (n < 10)
 	{
 		i = 0;
-		while (i < 15)
+		while (i < 10)
 		{
-			if (i < 10)
+			if (i < 15)
 			{
 				_putchar(i + '0');
 			}
