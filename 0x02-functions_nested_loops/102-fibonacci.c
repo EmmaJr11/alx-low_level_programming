@@ -15,7 +15,7 @@ int main(void)
 	printf("%lu, ", old_value);
 	printf("%lu, ", new_value);
 
-	while (count <= 50)
+	while (count < 50)
 	{
 		sum = old_value + new_value;
 		printf("%lu", sum);
