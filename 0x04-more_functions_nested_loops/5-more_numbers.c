@@ -21,10 +21,11 @@ void more_numbers(void)
 			else
 			{
 				_putchar(i / 10 + '0');
+				_putchar(i % 10 + '0');
 			}
 			i++;
 		}
 		n++;
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
