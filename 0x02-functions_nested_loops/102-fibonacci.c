@@ -20,7 +20,7 @@ int main(void)
 		sum = old_value + new_value;
 		printf("%lu", sum);
 
-		if (count < 50)
+		if (count < 49)
 		{
 			putchar(44);
 			putchar(32);
