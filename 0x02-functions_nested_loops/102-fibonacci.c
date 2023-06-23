@@ -30,6 +30,7 @@ int main(void)
 		new_value = sum;
 		count++;
 	}
+	putchar('\n');
 
 	return (0);
 }
