@@ -9,24 +9,25 @@
 int main(void)
 {
 	int count = 2;
-	long int i = 1, j = 2;
-	long int k;
+	long int old_value = 1, new_value = 2;
+	long int sum = 0;
 
-	printf("%lu, ", i);
+	printf("%lu, ", old_value);
+	printf("%lu, ", new_value);
+
 	while (count <= 50)
 	{
-		if (count == 50)
+		sum = old_value + new_value;
+		printf("%lu", sum);
+
+		if (count < 50)
 		{
-			printf("%lu\n", j);
-		}
-		else
-		{
-			printf("%lu, ", j);
+			putchar(44);
+			putchar(32);
 		}
 
-		k = j;
-		j += i;
-		i = k;
+		old_value = new_value;
+		new_value = sum;
 		count++;
 	}
 
