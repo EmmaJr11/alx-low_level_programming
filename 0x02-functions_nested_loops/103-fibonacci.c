@@ -9,8 +9,8 @@
  */
 int main(void)
 {
-	long int old_value = 1, new_value = 2;
-	long int sum = 0, sum_total = 0;
+	int old_value = 1, new_value = 2;
+	int sum = 0, sum_total = 0;
 
 	while (sum < 4000000)
 	{
@@ -22,9 +22,9 @@ int main(void)
 		}
 
 		old_value = new_value;
-		new_value = old_value;
+		new_value = sum;
 	}
-	printf("%lu\n", sum_total);
+	printf("%d\n", sum_total + 2);
 
 	return (0);
 }
