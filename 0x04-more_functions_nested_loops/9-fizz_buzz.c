@@ -32,7 +32,7 @@ int main(void)
 			putchar(32);
 		}
 	}
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }
